@@ -6,7 +6,8 @@ body {
 
 @mixin main-text {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    color:white;
+    text-shadow: .025em  .025em rgb(0, 0, 0);
 }
 
 .title {
@@ -16,6 +17,40 @@ body {
     font-size: 100px;
     color:white;
     text-align: center;
+}
 
-    text-shadow: 5px  5px rgb(0, 0, 0);
+.title-button-container {
+    margin-top: 200px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.title-button {
+    // Position
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline-block;
+
+    // Text
+    @include main-text;
+
+    font-size: 50px;
+    text-align: center;
+
+    // Border
+    border-style: solid;
+    border-width: 5px;
+    border-spacing: 5px;
+    width: 200px;
+
+    transition: border-radius .25s;
+}
+
+.title-button:hover {
+    cursor:pointer;
+
+    border-radius: .25em;
+
+    transition: border-radius .25s;
 }
