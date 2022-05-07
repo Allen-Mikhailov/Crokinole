@@ -1,0 +1,21 @@
+$background-color: #8bb0db;
+
+body {
+    background-color: $background-color;
+}
+
+@mixin main-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.title {
+    @include main-text;
+
+    margin-top: 50px;
+    font-size: 100px;
+    color:white;
+    text-align: center;
+
+    text-shadow: 5px  5px rgb(0, 0, 0);
+}
