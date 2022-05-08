@@ -1,15 +1,29 @@
 import "./scss/app.scss"
-import Button from "./components/title-button" 
 
-function App() {
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Routes as Switch, Route } from "react-router-dom";
+
+// Custom Components
+import HomePage from "./components/home-page";
+
+const bp = "/Crokinole"
+
+function App(props) {
+  props.state = {}
+
   return (
-    <div className="App">
+    <Router className="App">
+      
       <div className="title">Crokinole</div>
-      <div className="title-button-container">
-        <Button name="Test"></Button>
-        <Button name="but"></Button><Button name="Test"></Button>
-      </div>
-    </div>
+      <Switch>
+        <Route path={bp} element={<HomePage />}/>
+        <Route path={bp+"/test"}/>
+        <Route path={bp+"/test"} element={<div>test</div>}/>
+
+
+      </Switch>
+    </Router>
   );
 }
 

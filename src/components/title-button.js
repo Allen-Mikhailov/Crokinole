@@ -1,11 +1,16 @@
 import "./../scss/app.scss"
 
-function button(props)
-{
+import {
+    Link
+} from "react-router-dom";
+
+function button(props) {
     return (
-        <div className="title-button">
-            {props.name}
-        </div>
+        <Link to={props.to || ""}>
+            <div className="title-button">
+                {props.name}
+            </div>
+        </Link >
     )
 }
 

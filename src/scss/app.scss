@@ -8,6 +8,8 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:white;
     text-shadow: .025em  .025em rgb(0, 0, 0);
+
+    user-select: none;
 }
 
 .title {
