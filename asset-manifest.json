@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Crokinole/static/css/main.df2473b0.css",
-    "main.js": "/Crokinole/static/js/main.b720b386.js",
+    "main.css": "/Crokinole/static/css/main.5e1de7f0.css",
+    "main.js": "/Crokinole/static/js/main.c3764fc8.js",
     "index.html": "/Crokinole/index.html",
-    "main.df2473b0.css.map": "/Crokinole/static/css/main.df2473b0.css.map",
-    "main.b720b386.js.map": "/Crokinole/static/js/main.b720b386.js.map"
+    "main.5e1de7f0.css.map": "/Crokinole/static/css/main.5e1de7f0.css.map",
+    "main.c3764fc8.js.map": "/Crokinole/static/js/main.c3764fc8.js.map"
   },
   "entrypoints": [
-    "static/css/main.df2473b0.css",
-    "static/js/main.b720b386.js"
+    "static/css/main.5e1de7f0.css",
+    "static/js/main.c3764fc8.js"
   ]
 }
