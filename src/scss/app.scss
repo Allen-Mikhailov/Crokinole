@@ -1,15 +1,10 @@
+@use "./utilities.scss" as *;
+@use "./navbar.scss" as *;
+
 $background-color: #8bb0db;
 
 body {
     background-color: $background-color;
-}
-
-@mixin main-text {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:white;
-    text-shadow: .025em  .025em rgb(0, 0, 0);
-
-    user-select: none;
 }
 
 .title {
@@ -55,20 +50,4 @@ body {
     border-radius: .25em;
 
     transition: border-radius .25s;
-}
-.navbar {
-    margin: 0px;
-    height: 40px;
-    width: 100%;
-    background-color:#5292db;
-}
-.button {
-    height: 25 px;
-    background-color: #5292db;
-    border-color: white;
-    font-family: Impact;
-    color:white;
-    font-size: 20px;
-    margin-left: 95%;
-    margin-top: 0.25%;
 }
