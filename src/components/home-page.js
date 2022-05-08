@@ -8,7 +8,7 @@ function homepage(props)
             <Button name="Test" to={bp+'/test'}></Button>
             <Button name="but" to={bp+'/test'}></Button>
             <Button name="Test" to={bp+'/test'}></Button>
-          </div>
+        </div>
     )
 }
 
