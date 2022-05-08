@@ -21,7 +21,6 @@ function App(props) {
     <Router className="App">
       <div id="Vars" hidden={true}></div>
       <Navbar />
-      {/* <div className="title">Crokinole</div> */}
       <Switch>
         <Route path={bp} element={<HomePage />} />
         <Route path={bp+"/Login"} element={<LoginPage/>} />
