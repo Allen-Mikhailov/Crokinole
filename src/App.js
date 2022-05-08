@@ -10,7 +10,7 @@ import HomePage from "./components/home-page";
 const bp = "/Crokinole"
 
 function App(props) {
-  props.state = {}
+  // props.state = {}
 
   return (
     <Router className="App">
