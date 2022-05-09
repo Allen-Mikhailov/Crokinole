@@ -25,8 +25,6 @@ function App(props) {
         <Route path={bp} element={<HomePage />} />
         <Route path={bp+"/Login"} element={<LoginPage/>} />
         <Route path={bp+"/test"} element={<div>test</div>} />
-
-
       </Switch>
     </Router>
   );

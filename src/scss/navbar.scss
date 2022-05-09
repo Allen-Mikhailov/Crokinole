@@ -1,4 +1,5 @@
 @use "./utilities.scss" as *;
+@use "./vars.scss";
 
 .navbar {
     @include unselectable;
@@ -11,6 +12,7 @@
     background-color:#5292db;
 }
 .button {
+    cursor: pointer;
     height: 1.5em;
     background-color: #5292db;
     border-color: white;
@@ -22,8 +24,9 @@
 }
 
 .narbar-title {
-    padding-left: .2em;
     @include main-text;
+
+    padding-left: .2em;
     font-size: 2em;
     float: left;
 }

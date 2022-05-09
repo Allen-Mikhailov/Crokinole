@@ -1,0 +1,49 @@
+@use "./utilities.scss" as *;
+@use "./vars.scss" as *;
+
+.login-container {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.input-label {
+    font-size: 3em;
+    @include main-text;
+    // @include unselectable;
+}
+
+.input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+
+    font-size: 2em;
+    width: 10em;
+    height: 1em;
+}
+
+.login-spacer {
+    margin-top: 1em;
+}
+
+.login-button {
+    cursor: pointer;
+    // height: 1.5em;
+    background-color: $background-color;
+    border-color: white;
+    font-family: Impact;
+    color:white;
+    font-size: 2em;
+    margin: .25em;
+    text-shadow: .025em  .025em rgb(0, 0, 0);
+    // border: 10px 10px black;
+    border-style: solid;
+
+    width: 5em;
+    border-radius: .1em;
+    transition: border-radius 1s;
+}
+
+.login-button:active {
+    border-radius: .25em;
+    // transition: border-radius 1s;
+}
