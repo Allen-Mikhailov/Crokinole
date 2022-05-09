@@ -17,11 +17,12 @@
     font-family: Impact;
     color:white;
     font-size: 20px;
+    margin-top: 0.1em;
     margin: .25em;
     float: right;
 }
 
-.narbar-title {
+.navbar-title {
     padding-left: .2em;
     @include main-text;
     font-size: 2em;
