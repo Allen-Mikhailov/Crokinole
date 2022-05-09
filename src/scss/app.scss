@@ -1,8 +1,8 @@
 @use "./utilities.scss" as *;
+@use "./vars.scss" as *;
 @use "./navbar.scss";
 @use "./home-page.scss";
-
-$background-color: #8bb0db;
+@use "./login-page.scss";
 
 body {
     background-color: $background-color;
